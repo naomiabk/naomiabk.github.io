@@ -1,14 +1,14 @@
 <header class="d-flex flex-column align-items-center pb-3 mb-5 border-bottom">
   <!-- Logos en haut -->
-  <div class="d-flex justify-content-center mb-4"> <!-- augmente mb-4 pour plus d'espace sous les logos -->
-    <img src="{{ site.github.url }}/assets/img/logoimt.png" alt="Logo IMT" style="height:80px; margin:0 120px;"> <!-- margin augmenté -->
-    <img src="{{ site.github.url }}/assets/img/logout3.png" alt="Logo UT3" style="height:80px; margin:0 120px;">
-    <img src="{{ site.github.url }}/assets/img/logolaplace.png" alt="Logo Laplace" style="height:80px; margin:0 120px;">
+  <div class="d-flex justify-content-center mb-6"> <!-- augmente mb-4 pour plus d'espace sous les logos -->
+    <img src="{{ site.github.url }}/assets/img/logoimt.png" alt="Logo IMT" style="height:80px; margin:0 125px;"> <!-- margin augmenté -->
+    <img src="{{ site.github.url }}/assets/img/logout3.png" alt="Logo UT3" style="height:80px; margin:0 125px;">
+    <img src="{{ site.github.url }}/assets/img/logolaplace.png" alt="Logo Laplace" style="height:80px; margin:0 125px;">
   </div>
 
 <!-- Titre et sous-titre -->
-<div class="text-center mb-12"> <!-- mb-12 : espace plus grand sous le texte -->
-  <h1 class="fs-3 fw-bold mb-1">Page personnelle de Naomi</h1>
+<div class="text-center mb-11"> <!-- mb-12 : espace plus grand sous le texte -->
+  <h1 class="fs-3 fw-bold mb-1">Page personnelle de Naomi Albukerque</h1>
   <p class="fs-6 mb-0 text-muted">Bienvenue sur ma page personnelle, dédiée à mes travaux de recherche et publications.</p>
 </div>
 
@@ -16,7 +16,7 @@
 <hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:20px;">
 
   <!-- Menu -->
-  <nav class="d-inline-flex mt-2">
+  <nav class="d-inline-flex mt-1">
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
