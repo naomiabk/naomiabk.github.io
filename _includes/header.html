@@ -1,9 +1,9 @@
-<header class="d-flex flex-column align-items-center pb-3 mb-10 border-bottom">
+<header class="d-flex flex-column align-items-center pb-3 mb-5 border-bottom">
 
   <!-- Logos en haut -->
-  <div class="d-flex justify-content-center mb-10"> 
+  <div class="d-flex justify-content-center mb-14"> 
     <!-- 
-      mb-6 → marge sous le bloc des logos (espace entre logos et texte)
+      mb-14 → marge sous le bloc des logos (espace entre logos et texte)
       margin:0 125px → espace horizontal entre chaque logo
       height:80px → taille verticale des logos
     -->
@@ -13,27 +13,29 @@
   </div>
 
   <!-- Titre et sous-titre -->
-  <div class="text-center mb-9"> 
+  <div class="text-center mb-11 mt-5"> 
     <!-- 
-      mb-10 → espace entre le bloc texte et la ligne <hr>
+      mt-5 → espace au-dessus du texte (pour descendre le texte depuis les logos)
+      mb-11 → espace entre le bloc texte et la ligne <hr>
       h1.mb-1 → espace entre le titre et le sous-titre
-      p.mb-0 → pas de marge sous le paragraphe (si tu veux plus d'espace, changer mb-0 en mb-2 ou mb-3)
+      p.mb-0 → pas de marge sous le paragraphe (modifier mb-0 si tu veux plus d'espace)
     -->
     <h1 class="fs-3 fw-bold mb-1">Page personnelle de Naomi</h1>
     <p class="fs-6 mb-0 text-muted">Bienvenue sur ma page personnelle, dédiée à mes travaux de recherche et publications.</p>
   </div>
 
   <!-- Ligne séparatrice au-dessus du menu -->
-  <hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:10px;">
+  <hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:20px;">
   <!-- 
     margin-top:40px → espace entre le bloc texte et la ligne
     margin-bottom:20px → espace entre la ligne et le menu
   -->
 
   <!-- Menu -->
-  <nav class="d-inline-flex mt-1">
+  <nav class="d-inline-flex mt-1 justify-content-center flex-wrap">
     <!-- 
       mt-1 → marge au-dessus du menu, entre la ligne <hr> et les liens du menu
+      flex-wrap → permet au menu de rester lisible si l’écran est étroit
     -->
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
