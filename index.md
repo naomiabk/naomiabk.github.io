@@ -3,11 +3,10 @@ layout: home
 title: "Home"
 ---
 
-<h3 class="fw-bold" style="font-size:20px;">About Me</h3>
 <p style="font-size:16px; line-height:1.5;">
-Hello, my name is Naomi Albukerque. Since 2025, I have been a PhD student in the Department of Statistics and Probability at the <a href="https://www.imt.fr/" target="_blank">Institut de Mathématiques de Toulouse (IMT)</a>, under the supervision of <a href="[https://www.imt.fr/en/people/agnes-lagnoux](https://perso.math.univ-toulouse.fr/lagnoux/)" target="_blank">Agnès Lagnoux</a> and 
-<a href="[https://www.imt.fr/en/people/fulbert-baudoin](https://doctorat.univ-toulouse.fr/as/ed/detailResp.pl?resp=22662&site=EDT&ed=48)" target="_blank">Fulbert Baudoin</a>.   
-I work in collaboration with two mathematics laboratories: <a href="[https://www.imt.fr/](https://www.math.univ-toulouse.fr/fr/)" target="_blank">IMT</a> and <a href="[https://www.unice.fr/laboratoire-j-a-dieudonne](https://univ-cotedazur.fr/laboratoires/laboratoire-jean-alexandre-dieudonne-ljad)" target="_blank">LJAD (Laboratoire J.A. Dieudonné, Nice)</a>, as well as with physics teams from the <a href="[https://www.laplace.univ-tlse.fr/](https://www.univ-tlse3.fr/structures-de-recherche/laboratoire-plasma-et-conversion-d-energie)" target="_blank">LAPLACE (Laboratoire plasma et conversion d'énergie)</a> and <a href="[https://www.ica.univ-tlse.fr/](https://ica.cnrs.fr/)" target="_blank">ICA (Institut Clément Ader)</a> laboratories.  
+Hello, my name is Naomi Albukerque. Since 2025, I have been a PhD student in the Department of Statistics and Probability at the <a href="https://www.math.univ-toulouse.fr/fr/" target="_blank">Institut de Mathématiques de Toulouse (IMT)</a>, under the supervision of <a href="https://perso.math.univ-toulouse.fr/lagnoux/" target="_blank">Agnès Lagnoux</a> and 
+<a href="https://doctorat.univ-toulouse.fr/as/ed/detailResp.pl?resp=22662&site=EDT&ed=48" target="_blank">Fulbert Baudoin</a>.   
+I work in collaboration with two mathematics laboratories: <a href="https://www.math.univ-toulouse.fr/fr/" target="_blank">IMT</a> and <a href="https://univ-cotedazur.fr/laboratoires/laboratoire-jean-alexandre-dieudonne-ljad" target="_blank">LJAD (Laboratoire J.A. Dieudonné, Nice)</a>, as well as with physics teams from the <a href="https://www.univ-tlse3.fr/structures-de-recherche/laboratoire-plasma-et-conversion-d-energie" target="_blank">LAPLACE (Laboratoire plasma et conversion d'énergie)</a> and <a href="https://ica.cnrs.fr/" target="_blank">ICA (Institut Clément Ader)</a> laboratories.  
 </p>
 
 <p style="font-size:16px; line-height:1.5;">
@@ -15,5 +14,5 @@ My research is at the interface of applied mathematics and its applications in p
 </p>
 
 <p style="font-size:16px; line-height:1.5;">
-This website is brand new and still a work in progress, so some pages may be a bit empty… but you can already find my CV as well as an overview of my research interests and publications. Thank you for visiting and for your patience! 😊
+This website is brand new and still a work in progress, so some pages may be a bit empty… but you can already find my CV as well as an overview of my research interests and publications. Thank you for visiting and for your patience! 
 </p>
