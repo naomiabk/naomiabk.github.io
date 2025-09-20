@@ -1,23 +1,40 @@
 <header class="d-flex flex-column align-items-center pb-3 mb-5 border-bottom">
 
   <!-- Logos en haut -->
-  <div class="d-flex justify-content-center" style="margin-bottom:80px; gap:125px;">
-    <img src="{{ site.github.url }}/assets/img/logoimt.png" alt="Logo IMT" style="height:80px; max-width:30vw; height:auto;">
-    <img src="{{ site.github.url }}/assets/img/logout3.png" alt="Logo UT3" style="height:80px; max-width:30vw; height:auto;">
-    <img src="{{ site.github.url }}/assets/img/logolaplace.png" alt="Logo Laplace" style="height:80px; max-width:30vw; height:auto;">
+  <div class="d-flex justify-content-center mb-6"> 
+    <!-- 
+      mb-6 → marge sous le bloc des logos (espace entre logos et texte)
+      margin:0 125px → espace horizontal entre chaque logo
+      height:80px → taille verticale des logos
+    -->
+    <img src="{{ site.github.url }}/assets/img/logoimt.png" alt="Logo IMT" style="height:80px; margin:0 125px;">
+    <img src="{{ site.github.url }}/assets/img/logout3.png" alt="Logo UT3" style="height:80px; margin:0 125px;">
+    <img src="{{ site.github.url }}/assets/img/logolaplace.png" alt="Logo Laplace" style="height:80px; margin:0 125px;">
   </div>
 
   <!-- Titre et sous-titre -->
-  <div class="text-center mb-11">
-    <h1 class="fs-3 fw-bold mb-2">Page personnelle de Naomi Albukerque</h1>
+  <div class="text-center mb-10"> 
+    <!-- 
+      mb-10 → espace entre le bloc texte et la ligne <hr>
+      h1.mb-1 → espace entre le titre et le sous-titre
+      p.mb-0 → pas de marge sous le paragraphe (si tu veux plus d'espace, changer mb-0 en mb-2 ou mb-3)
+    -->
+    <h1 class="fs-3 fw-bold mb-1">Page personnelle de Naomi</h1>
     <p class="fs-6 mb-0 text-muted">Bienvenue sur ma page personnelle, dédiée à mes travaux de recherche et publications.</p>
   </div>
 
   <!-- Ligne séparatrice au-dessus du menu -->
-  <hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:20px;">
+  <hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:15px;">
+  <!-- 
+    margin-top:40px → espace entre le bloc texte et la ligne
+    margin-bottom:20px → espace entre la ligne et le menu
+  -->
 
   <!-- Menu -->
-  <nav class="d-inline-flex mt-1 justify-content-center flex-wrap">
+  <nav class="d-inline-flex mt-1">
+    <!-- 
+      mt-1 → marge au-dessus du menu, entre la ligne <hr> et les liens du menu
+    -->
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
