@@ -2,16 +2,28 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-5"><!-- g-5 = gap entre colonnes, mb-5 = marge en bas de la ligne -->
   <div class="col-md-4">
-    <img src="{{ site.github.url }}/assets/img/sitewebtest.jpg" alt="Home" style="width:170px; height:auto; margin-left:40px;">
+    <!-- Image -->
+    <!-- Pour régler l'espace autour de l'image : 
+         - width: change la taille horizontale
+         - height: auto garde les proportions
+         - margin-left: décale l'image vers la droite
+         - margin-top / margin-bottom : pour espace vertical -->
+    <img src="{{ site.github.url }}/assets/img/sitewebtest.jpg" alt="Home" 
+         style="width:200px; height:auto; margin-left:40px; /* augmente/diminue pour déplacer */">
   </div>
+
   <div class="col-md-8">
+    <!-- Texte -->
+    <!-- Pour régler l'espacement du texte par rapport à l'image : 
+         - padding-left / padding-right
+         - margin-left / margin-right
+         - Ajuster col-md-8 pour donner plus ou moins d'espace à la colonne -->
     <h3 class="fw-bold" style="font-size:24px;">Welcome to my homepage!</h3>
-    {{ content }}
+    {{ content }} <!-- Ton texte principal -->
   </div>
 </div>
-
 
 {% include publications.html %}
 
@@ -19,7 +31,10 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
     {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      <p>
+        <!-- Pour espacer les posts, tu peux ajuster margin-bottom ici si nécessaire -->
+        <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
+      </p>
     {% endfor %}
   </div>
 </div>
