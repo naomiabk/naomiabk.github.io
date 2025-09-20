@@ -1,24 +1,26 @@
 <header class="d-flex flex-column align-items-center pb-3 mb-5 border-bottom">
+
   <!-- Logos en haut -->
-  <div class="d-flex justify-content-center mb-6"> <!-- augmente mb-4 pour plus d'espace sous les logos -->
-    <img src="{{ site.github.url }}/assets/img/logoimt.png" alt="Logo IMT" style="height:80px; margin:0 125px;"> <!-- margin augmenté -->
-    <img src="{{ site.github.url }}/assets/img/logout3.png" alt="Logo UT3" style="height:80px; margin:0 125px;">
-    <img src="{{ site.github.url }}/assets/img/logolaplace.png" alt="Logo Laplace" style="height:80px; margin:0 125px;">
+  <div class="d-flex justify-content-center" style="margin-bottom:80px; gap:125px;">
+    <img src="{{ site.github.url }}/assets/img/logoimt.png" alt="Logo IMT" style="height:80px; max-width:30vw; height:auto;">
+    <img src="{{ site.github.url }}/assets/img/logout3.png" alt="Logo UT3" style="height:80px; max-width:30vw; height:auto;">
+    <img src="{{ site.github.url }}/assets/img/logolaplace.png" alt="Logo Laplace" style="height:80px; max-width:30vw; height:auto;">
   </div>
 
-<!-- Titre et sous-titre -->
-<div class="text-center mb-11"> <!-- mb-12 : espace plus grand sous le texte -->
-  <h1 class="fs-3 fw-bold mb-1">Page personnelle de Naomi Albukerque</h1>
-  <p class="fs-6 mb-0 text-muted">Bienvenue sur ma page personnelle, dédiée à mes travaux de recherche et publications.</p>
-</div>
+  <!-- Titre et sous-titre -->
+  <div class="text-center mb-11">
+    <h1 class="fs-3 fw-bold mb-2">Page personnelle de Naomi Albukerque</h1>
+    <p class="fs-6 mb-0 text-muted">Bienvenue sur ma page personnelle, dédiée à mes travaux de recherche et publications.</p>
+  </div>
 
-<!-- Ligne séparatrice au-dessus du menu -->
-<hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:20px;">
+  <!-- Ligne séparatrice au-dessus du menu -->
+  <hr style="width:100%; border-top:1px solid #ccc; margin-top:40px; margin-bottom:20px;">
 
   <!-- Menu -->
-  <nav class="d-inline-flex mt-1">
+  <nav class="d-inline-flex mt-1 justify-content-center flex-wrap">
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
+
 </header>
