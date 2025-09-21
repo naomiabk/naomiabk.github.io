@@ -14,16 +14,13 @@ layout: default
          style="width:200px; height:auto; margin-left:40px; /* augmente/diminue pour déplacer */">
   </div>
 
-  <div class="col-md-8.5">
-    <!-- Texte -->
-    <!-- Pour régler l'espacement du texte par rapport à l'image : 
-         - padding-left / padding-right
-         - margin-left / margin-right
-         - Ajuster col-md-8 pour donner plus ou moins d'espace à la colonne -->
-    <h3 class="fw-bold" style="font-size:24px;">Welcome to my homepage!</h3>
-    {{ content }} <!-- Ton texte principal -->
+<div class="col-md-9">
+  <h3 class="fw-bold" style="font-size:24px;">Welcome to my homepage!</h3>
+  <div style="font-size:14px;"> <!-- 👈 tu ajoutes ce style -->
+    {{ content }}
   </div>
 </div>
+
 
 {% include publications.html %}
 
