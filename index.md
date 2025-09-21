@@ -3,7 +3,7 @@ layout: home
 title: "Home"
 ---
 
-<p style="font-size:15px; line-height:1.5;">
+<p style="font-size:15px; line-height:1.5; text-align:justify;">
 Hello, my name is Naomi Albukerque. Since 2025, I have been a PhD student in the Department of Statistics and Probability at the <a href="https://www.math.univ-toulouse.fr/fr/" target="_blank">Institut de Mathématiques de Toulouse (IMT)</a>, under the supervision of <a href="https://perso.math.univ-toulouse.fr/lagnoux/" target="_blank">Agnès Lagnoux</a> and 
 <a href="https://doctorat.univ-toulouse.fr/as/ed/detailResp.pl?resp=22662&site=EDT&ed=48" target="_blank">Fulbert Baudoin</a>.   
 I work in collaboration with two mathematics laboratories: <a href="https://www.math.univ-toulouse.fr/fr/" target="_blank">IMT</a> and <a href="https://univ-cotedazur.fr/laboratoires/laboratoire-jean-alexandre-dieudonne-ljad" target="_blank">LJAD (Laboratoire J.A. Dieudonné, Nice)</a>, as well as with physics teams from the <a href="https://www.laplace.univ-tlse.fr/" target="_blank">LAPLACE (Laboratoire plasma et conversion d'énergie)</a> and <a href="https://ica.cnrs.fr/" target="_blank">ICA (Institut Clément Ader)</a> laboratories.  
