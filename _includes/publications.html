@@ -14,23 +14,22 @@
 
 <style>
   .research-list {
-    columns: 2;              
-    column-gap: 0px;        
-    list-style-type: circle; 
-    padding-left: 20px;      
-    font-size: 0.95rem;      
+    display: grid;
+    grid-template-columns: auto auto; /* 2 colonnes compactes */
+    gap: 6px 20px; /* 6px entre les lignes, 20px entre colonnes */
+    list-style-type: circle;
+    padding-left: 20px;
+    font-size: 0.95rem;
     margin: 0;
   }
 
   .research-list li {
-    margin-bottom: 8px;   /* espace entre les items */
-    line-height: 1.5;     /* hauteur de ligne pour plus de lisibilité */
+    line-height: 1.5;
   }
 
-  /* Sur mobile (écrans < 768px), une seule colonne */
   @media (max-width: 768px) {
     .research-list {
-      columns: 1;
+      grid-template-columns: 1fr; /* 1 colonne sur mobile */
     }
   }
 </style>
