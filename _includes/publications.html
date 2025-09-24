@@ -1,8 +1,31 @@
-<ul style="columns: 2; column-gap: 30px; list-style: none; padding: 0; margin: 0;">
-  <li>Artificial Intelligence</li>
-  <li>Machine Learning</li>
-  <li>Data Visualization</li>
-  <li>Natural Language Processing</li>
-  <li>Human-Computer Interaction</li>
-  <li>Robotics</li>
-</ul>
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Research Interests</h3>
+    <ul class="research-list">
+      <li>Artificial Intelligence</li>
+      <li>Machine Learning</li>
+      <li>Data Visualization</li>
+      <li>Natural Language Processing</li>
+      <li>Human-Computer Interaction</li>
+      <li>Robotics</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .research-list {
+    columns: 2;              /* 2 colonnes */
+    column-gap: 25px;        /* espace entre colonnes */
+    list-style-type: circle; /* puces fines (tu peux mettre "disc" si tu veux plus pleines) */
+    padding-left: 20px;      /* petit retrait pour les puces */
+    font-size: 0.95rem;      /* texte légèrement plus fin */
+    margin: 0;
+  }
+
+  /* Sur mobile (écrans < 768px), une seule colonne */
+  @media (max-width: 768px) {
+    .research-list {
+      columns: 1;
+    }
+  }
+</style>
