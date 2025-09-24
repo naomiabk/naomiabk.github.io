@@ -15,8 +15,8 @@
 <style>
   .research-list {
     display: grid;
-    grid-template-columns: auto auto; /* 2 colonnes compactes */
-    gap: 6px 20px; /* 6px entre les lignes, 20px entre colonnes */
+    grid-template-columns: auto auto auto; /* 3 colonnes */
+    gap: 6px 15px; /* 6px entre lignes, 15px entre colonnes */
     list-style-type: circle;
     padding-left: 20px;
     font-size: 0.95rem;
@@ -27,7 +27,13 @@
     line-height: 1.5;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
+    .research-list {
+      grid-template-columns: auto auto; /* 2 colonnes sur tablette */
+    }
+  }
+
+  @media (max-width: 576px) {
     .research-list {
       grid-template-columns: 1fr; /* 1 colonne sur mobile */
     }
