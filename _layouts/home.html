@@ -35,48 +35,61 @@ layout: default
       
       <div class="contact-row">
         <div class="contact-label">Address:</div>
-          <div class="contact-value">
-              Institut de Mathématiques de Toulouse, 1 R.3,<br>
-              Université Paul Sabatier,<br>
-              118 Rte de Narbonne,<br>
-              31400 Toulouse<br>
-          </div>
+        <div class="contact-value">
+          School of Mathematical Sciences<br>
+          University of Science and Technology of China<br>
+          N. 96, Jinzhai Road, Baohe District<br>
+          Hefei, Anhui, 230026<br>
+          P.R. China
+        </div>
       </div>
 
-      <p><strong>Office:</strong>1 R.1 205</p>
+      <div class="contact-row">
+        <div class="contact-label">Office:</div>
+        <div class="contact-value">306</div>
+      </div>
 
       <div class="contact-row">
         <div class="contact-label">Email:</div>
         <div class="contact-value">
-          <a href="mailto:mingmin.zhang.math@gmail.com">naomi.albukerque@math.univ-toulouse.fr</a><br>
-          <a href="mailto:mingminzhang@ustc.edu.cn">naomi.albukerque@univ-tlse3.fr</a></p>
+          <a href="mailto:mingmin.zhang.math@gmail.com">mingmin.zhang.math@gmail.com</a><br>
+          <a href="mailto:mingminzhang@ustc.edu.cn">mingminzhang@ustc.edu.cn</a>
         </div>
       </div>
-      
+
     </div>
   </div>
 </div>
 
 <style>
-  .contact-info p {
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    font-size: 0.95rem;
-  }
-
-  .contact-info a {
-    color: #0d6efd; /* couleur Bootstrap pour liens */
-    text-decoration: none;
-  }
-
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
-
-  /* Optionnel : ajouter une petite bordure et un padding */
   .contact-info {
     padding: 15px;
     border-radius: 8px;
-    background-color: #f8f9fa; /* léger gris */
+    background-color: #f8f9fa;
+  }
+
+  .contact-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .contact-label {
+    width: 120px;        /* largeur fixe pour aligner les valeurs */
+    font-weight: bold;
+  }
+
+  .contact-value {
+    flex: 1;             /* occupe le reste de l’espace */
+    line-height: 1.5;
+  }
+
+  .contact-value a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+
+  .contact-value a:hover {
+    text-decoration: underline;
   }
 </style>
+
