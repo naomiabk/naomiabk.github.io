@@ -26,17 +26,18 @@
     padding-left: 1.5em; /* espace pour la puce plus grande */
     line-height: 1.5;
   }
-
+  
   .research-list li::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0.55em; /* centre vertical approximatif */
-    width: 0.7em;  /* largeur plus grande */
-    height: 0.7em; /* hauteur plus grande */
-    border: 2px solid black; /* cercle vide noir */
+    width: 0.5em;  /* réduit par rapport à 0.7em */
+    height: 0.5em; /* réduit par rapport à 0.7em */
+    border: 2px solid black;
     border-radius: 50%;
   }
+
 
   @media (max-width: 992px) {
     .research-list {
