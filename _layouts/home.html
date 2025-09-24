@@ -30,12 +30,44 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
-    {% for post in site.posts %}
-      <p>
-        <!-- Pour espacer les posts, tu peux ajuster margin-bottom ici si nécessaire -->
-        <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
-      </p>
-    {% endfor %}
+    <h3 class="fw-bold border-bottom pb-3 mb-4">Contact</h3>
+    <div class="contact-info">
+      <p><strong>Address:</strong><br>
+      School of Mathematical Sciences<br>
+      University of Science and Technology of China<br>
+      N. 96, Jinzhai Road, Baohe District<br>
+      Hefei, Anhui, 230026<br>
+      P.R. China</p>
+
+      <p><strong>Office:</strong> 306</p>
+
+      <p><strong>Email:</strong><br>
+      <a href="mailto:mingmin.zhang.math@gmail.com">mingmin.zhang.math@gmail.com</a><br>
+      <a href="mailto:mingminzhang@ustc.edu.cn">mingminzhang@ustc.edu.cn</a></p>
+    </div>
   </div>
 </div>
+
+<style>
+  .contact-info p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .contact-info a {
+    color: #0d6efd; /* couleur Bootstrap pour liens */
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  /* Optionnel : ajouter une petite bordure et un padding */
+  .contact-info {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* léger gris */
+  }
+</style>
