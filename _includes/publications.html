@@ -23,17 +23,19 @@
 
   .research-list li {
     position: relative;
-    padding-left: 1.2em; /* espace pour la puce */
+    padding-left: 1.5em; /* espace pour la puce plus grande */
     line-height: 1.5;
   }
 
   .research-list li::before {
-    content: "●";       /* puce noire ronde */
+    content: "";
     position: absolute;
     left: 0;
-    color: black;       /* couleur noire */
-    font-size: 0.8em;   /* taille uniforme pour toutes les puces */
-    line-height: 1.5;
+    top: 0.55em; /* centre vertical approximatif */
+    width: 0.7em;  /* largeur plus grande */
+    height: 0.7em; /* hauteur plus grande */
+    border: 2px solid black; /* cercle vide noir */
+    border-radius: 50%;
   }
 
   @media (max-width: 992px) {
