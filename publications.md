@@ -5,7 +5,6 @@ title: "Publications"
 
 ### Preprints
 
-<div class="publication-list preprints">
 
 #### [Sparse and Regularized Deconvolutions for Estimating Charge Distribution in Dielectric Materials via PEA]
 
@@ -28,4 +27,4 @@ de la charge d’espace et des charges capacitives ]]
 
 *Presented at* **[Société Française d'Électrostatique 2026]**, [Poitiers, France], July 2026.
 
-</div>
+
