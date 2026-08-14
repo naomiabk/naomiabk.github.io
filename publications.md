@@ -3,7 +3,7 @@ layout: page
 title: "Publications"
 ---
 
-<div class="publications-page">
+
 **Journal · Conference · Preprint**
 
 #### Sparse and Regularized Deconvolutions for Estimating Charge Distribution in Dielectric Materials via PEA
@@ -16,5 +16,5 @@ title: "Publications"
 #### Déconvolution parcimonieuse et Ridge des signaux PEA pour la détermination de la charge d’espace et des charges capacitives
 
 **[N. Albukerque], [ F. Baudoin], [ L. Berquez], [F. Bugarin], [R. Chhaibi], [A. Lagnoux], [S. Le Roy], [C. Pellegrini], [S. Segonds** · *Presented at* **[Société Française d'Électrostatique 2026](https://sfe-2026.sciencesconf.org/)**, Poitiers, France], July 2026.
-</div>
+
 
