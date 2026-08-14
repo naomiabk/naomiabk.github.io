@@ -12,3 +12,67 @@ body {
 body a {
   color: $linkColor
 }
+
+/* =================================
+   Publications page
+   ================================= */
+
+.publications-page {
+  max-width: 850px;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+/* Section titles */
+.publications-page h2 {
+  font-size: 1.35rem;
+  margin-top: 2.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Article titles */
+.publications-page h3 {
+  font-size: 1.08rem;
+  line-height: 1.45;
+  margin-top: 1.8rem;
+  margin-bottom: 0.55rem;
+  font-weight: 600;
+}
+
+/* Authors */
+.publications-page strong {
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+/* Journal / year */
+.publications-page em {
+  color: #666;
+  font-size: 0.88rem;
+}
+
+/* DOI / PDF / arXiv / HAL links */
+.publications-page a {
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.publications-page a:hover {
+  border-bottom-color: currentColor;
+}
+
+/* Separators */
+.publications-page hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Main page title */
+.publications-page {
+  margin-bottom: 3rem;
+}
