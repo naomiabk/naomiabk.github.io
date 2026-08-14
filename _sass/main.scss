@@ -13,31 +13,27 @@ body a {
   color: $linkColor;
 }
 
-/* Publications page only */
+/* Publications */
 
-.publications-page {
-  font-size: 0.82rem;
-  line-height: 1.7;
-}
-
-.publications-page h2 {
+.page-content h2 {
   font-size: 0.9rem;
 }
 
-.publications-page h3 {
+.page-content h3 {
   font-size: 0.95rem;
 }
 
-.publications-page em {
-  color: #666;
-  font-size: 0.78rem;
-}
-
-.publications-page a {
+.page-content h3 + p,
+.page-content h3 + p + p,
+.page-content h3 + p + p + p {
   font-size: 0.8rem;
-  text-decoration: none;
 }
 
-.publications-page a:hover {
-  text-decoration: underline;
+.page-content em {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.page-content a {
+  font-size: 0.8rem;
 }
