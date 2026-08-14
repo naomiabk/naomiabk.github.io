@@ -26,6 +26,6 @@ de la charge d’espace et des charges capacitives ]]
 
 *Preprint* · 2026
 
-*Presented at* **[Société Française d'Électrostatique 2026]**, [Poitiers, France], juillet 2026.
+*Presented at* **[Société Française d'Électrostatique 2026]**, [Poitiers, France], July 2026.
 
 </div>
