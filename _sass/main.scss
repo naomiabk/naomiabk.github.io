@@ -15,27 +15,31 @@ body a {
 
 /* Publications */
 
-.col-md-12 h1 {
-  font-size: 2rem;
-}
-
-.col-md-12 h2 {
+.page-content h2 {
   font-size: 1rem;
 }
 
-.col-md-12 h3 {
-  font-size: 1rem;
+.page-content h3 {
+  font-size: 0.95rem;
 }
 
-.col-md-12 p {
-  font-size: 0.82rem;
+.page-content h3 + p {
+  font-size: 0.85rem;
 }
 
-.col-md-12 em {
+.page-content h3 + p + p {
+  font-size: 0.8rem;
+}
+
+.page-content h3 + p + p + p {
+  font-size: 0.75rem;
+}
+
+.page-content em {
   font-size: 0.78rem;
   color: #666;
 }
 
-.col-md-12 a {
-  font-size: 0.8rem;
+.page-content a {
+  font-size: 0.75rem;
 }
