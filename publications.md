@@ -3,7 +3,7 @@ layout: page
 title: "Publications"
 ---
 
-### Journal conference
+### Journal conference and preprint
 
 #### Sparse and Regularized Deconvolutions for Estimating Charge Distribution in Dielectric Materials via PEA
 
