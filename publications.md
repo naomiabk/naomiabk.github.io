@@ -3,51 +3,29 @@ layout: page
 title: "Publications"
 ---
 
-## Published Articles
-
-<div class="publication-list">
-
-### [Titre de la publication]
-
-**[Prénom NOM], [Prénom NOM], [Prénom NOM]**
-
-*[Nom du journal]* · **Volume** · Pages · 2026
-
-[DOI](LIEN_DOI) · [PDF](LIEN_PDF)
-
----
-
-### [Titre de la publication]
-
-**[Prénom NOM], [Prénom NOM], [Prénom NOM]**
-
-*[Nom du journal]* · **Volume** · Pages · 2026
-
-[DOI](LIEN_DOI) · [PDF](LIEN_PDF)
-
-</div>
-
-
-## Preprints
+### Preprints
 
 <div class="publication-list preprints">
 
-### [Titre de la publication]
+#### [Sparse and Regularized Deconvolutions for Estimating Charge Distribution in Dielectric Materials via PEA]
 
-**[Prénom NOM], [Prénom NOM], [Prénom NOM]**
+**[N. Albukerque], [ F. Baudoin], [ L. Berquez], [F. Bugarin], [R. Chhaibi], [A. Lagnoux], [S. Le Roy], [C. Pellegrini], [S. Segonds]**
 
 *Preprint* · 2026
 
-[arXiv](LIEN_ARXIV) · [HAL](LIEN_HAL) · [PDF](LIEN_PDF)
+*Presented at* **[International Conference on Dielectrics (ICD) 2026]**, [Southampton, United Kingdom], Jun 2026.
+
+[HAL]([LIEN_HAL](https://hal.science/hal-05693916v1))
 
 ---
 
-### [Titre de la publication]
+#### [[Déconvolution parcimonieuse et Ridge des signaux PEA pour la détermination
+de la charge d’espace et des charges capacitives ]]
 
-**[Prénom NOM], [Prénom NOM], [Prénom NOM]**
+**[N. Albukerque], [ F. Baudoin], [ L. Berquez], [F. Bugarin], [R. Chhaibi], [A. Lagnoux], [S. Le Roy], [C. Pellegrini], [S. Segonds]**
 
 *Preprint* · 2026
 
-[arXiv](LIEN_ARXIV) · [HAL](LIEN_HAL) · [PDF](LIEN_PDF)
+*Presented at* **[Société Française d'Électrostatique 2026]**, [Poitiers, France], juillet 2026.
 
 </div>
