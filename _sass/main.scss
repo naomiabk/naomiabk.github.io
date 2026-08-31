@@ -33,22 +33,27 @@ body a {
 }
 
 .col-md-12 em {
-  font-size: 0.78rem;
+  font-style: italic;
   color: #666;
 }
 
 .col-md-12 a {
   font-size: 0.75rem;
 }
+
 .page-content h3 + p + p + p {
   font-size: 0.75rem;
 }
 
 .page-content em {
-  font-size: 0.78rem;
+  font-style: italic;
   color: #666;
 }
 
 .page-content a {
   font-size: 0.75rem;
+}
+
+.col-md-12 h5 {
+  font-size: 0.95rem;
 }
