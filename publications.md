@@ -5,7 +5,7 @@ title: "Publications"
 
 **Journal · Conference · Preprint**
 
-<h5><em>Sparse and Regularized Dec</em></h5>
+<h3><em>Sparse and Regularized Dec</em></h3>
 
 
 
