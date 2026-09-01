@@ -42,7 +42,7 @@ title: "Publications"
 }
 
 .publication h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
   font-weight: 600;
@@ -54,7 +54,7 @@ title: "Publications"
 }
 
 .publication .authors {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-bottom: 0.25rem;
 }
 
