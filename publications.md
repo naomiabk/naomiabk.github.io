@@ -5,9 +5,9 @@ title: "Publications"
 
 <div class="publication">
 
-  <h3>
+  <h5>
     <em>Sparse and Regularized Deconvolutions for Estimating Charge Distribution in Dielectric Materials via PEA</em>
-  </h3>
+  </h5>
 
   <p class="authors">
     N. Albukerque, F. Baudoin, L. Berquez, F. Bugarin, R. Chhaibi, A. Lagnoux, S. Le Roy, C. Pellegrini, S. Segonds · Preprint · 2026 · Presented at <a href="https://ieee-icd.org">International Conference on Dielectrics (ICD) 2026</a>, Southampton, United Kingdom, June 2026. ·  <a href="https://hal.science/hal-05693916v1">HAL</a>
@@ -21,9 +21,9 @@ title: "Publications"
 
 <div class="publication">
 
-  <h3>
+  <h5>
     <em>Déconvolution parcimonieuse et Ridge des signaux PEA pour la détermination de la charge d’espace et des charges capacitives</em>
-  </h3>
+  </h5>
 
   <p class="authors">
     N. Albukerque,  F. Baudoin,  L. Berquez, F. Bugarin, R. Chhaibi, A. Lagnoux, S. Le Roy, C. Pellegrini, S. Segonds · Presented at <a href="https://sfe-2026.sciencesconf.org">Société Française d'Électrostatique 2026</a>, Poitiers, France, July 2026.
