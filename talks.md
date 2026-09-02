@@ -3,21 +3,20 @@ layout: page
 title: Talks and Conferences
 ---
 
-## Talks
+## Conferences & Events Attended
 
-### [Talk title]
-*Month Year — Seminar / Conference, City, Country*
+### [SAMO 2025 – International Conference on
+Sensitivity Analysis of Model Output]
+*April 2025 — Conference, Grenoble, France*
 
 Short description of the talk or the research presented.
 
-[Slides](#) · [Abstract](#)
+## Talks & Poster Presentations
 
-## Conferences
+### [ANITI Days 2026]
+*Fabruary 2025 — Conference, Toulouse, France*
 
-### [Conference name]
-*Month Year — City, Country*
-
-Participation / presentation / poster.
+Poster presentation
 
 ### [Conference name]
 *Month Year — City, Country*
