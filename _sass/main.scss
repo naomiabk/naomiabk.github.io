@@ -162,5 +162,26 @@ body a {
   .conference-info h3 {
     font-size: 1.05rem;
   }
+
+  .conference-gallery {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 4px 10px;
+
+  border-radius: 20px;
+
+  background-color: #e8eef7;
+  color: #3b5b85;
+
+  font-size: 0.8rem;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.conference-gallery:hover {
+  background-color: #d7e2f2;
+  color: #29496f;
+}
+
 }
 
