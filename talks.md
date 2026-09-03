@@ -17,12 +17,19 @@ title: Talks and Conferences
       <p class="conference-meta">
         April 2025 · Grenoble, France
       </p>
+
       <span class="conference-type">Conference</span>
-      <a href="https://samo2025.sciencesconf.org/data/pages/RTUQ.pdf" class="conference-gallery">RT-UQ group photo</a>
+
+      <a href="https://samo2025.sciencesconf.org/data/pages/RTUQ.pdf"
+         class="conference-gallery"
+         target="_blank">
+        📷 RT-UQ group photo
+      </a>
     </div>
   </div>
 
 </div>
+
 
 
 ### Talks & Poster Presentations
