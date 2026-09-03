@@ -9,7 +9,7 @@ title: Talks and Conferences
 
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/images/samo-2025.jpg" alt="SAMO 2025">
+      <img src="/assets/images/SAMO_poster.png" alt="SAMO 2025">
     </div>
 
     <div class="conference-info">
@@ -17,7 +17,7 @@ title: Talks and Conferences
       <p class="conference-meta">
         April 2025 · Grenoble, France
       </p>
-      <p class="conference-type">Conference</p>
+      <span class="conference-type">Conference</span>
     </div>
   </div>
 
@@ -30,7 +30,7 @@ title: Talks and Conferences
 
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/images/aniti-days-2026.jpg" alt="ANITI Days 2026">
+      <img src="/assets/images/at-la-cite-de-montaudran-1024x1024.png" alt="ANITI Days 2026">
     </div>
 
     <div class="conference-info">
@@ -38,14 +38,14 @@ title: Talks and Conferences
       <p class="conference-meta">
         February 2026 · Toulouse, France
       </p>
-      <p class="conference-type">Poster presentation</p>
+      <span class="conference-type">Poster presentation</span>
     </div>
   </div>
 
 
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/images/conference-name.jpg" alt="Conference name">
+      <img src="/assets/images/imtphoto.jpeg" alt="Conference name">
     </div>
 
     <div class="conference-info">
@@ -53,7 +53,7 @@ title: Talks and Conferences
       <p class="conference-meta">
         Month Year · City, Country
       </p>
-      <p class="conference-type">Oral presentation</p>
+      <span class="conference-type">Oral presentation</span>
     </div>
   </div>
 
