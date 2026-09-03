@@ -17,7 +17,7 @@ title: Talks and Conferences
       <p class="conference-meta">
         April 2025 · Grenoble, France
       </p>
-      <span class="conference-type">Conference</span>
+      <p class="conference-type">Conference</p>
     </div>
   </div>
 
@@ -38,7 +38,7 @@ title: Talks and Conferences
       <p class="conference-meta">
         February 2026 · Toulouse, France
       </p>
-      <span class="conference-type">Poster presentation</span>
+      <p class="conference-type">Poster presentation</p>
     </div>
   </div>
 
@@ -53,7 +53,7 @@ title: Talks and Conferences
       <p class="conference-meta">
         Month Year · City, Country
       </p>
-      <span class="conference-type">Oral presentation</span>
+      <p class="conference-type">Oral presentation</p>
     </div>
   </div>
 
