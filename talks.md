@@ -9,7 +9,7 @@ title: Talks and Conferences
 
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/images/SAMO_poster.png" alt="SAMO 2025">
+      <img src="/assets/img/SAMO_poster.png" alt="SAMO 2025">
     </div>
 
     <div class="conference-info">
@@ -18,6 +18,7 @@ title: Talks and Conferences
         April 2025 · Grenoble, France
       </p>
       <span class="conference-type">Conference</span>
+      <a href="https://samo2025.sciencesconf.org/data/pages/RTUQ.pdf" class="conference-gallery">RT-UQ group photo</a>
     </div>
   </div>
 
@@ -30,7 +31,7 @@ title: Talks and Conferences
 
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/images/at-la-cite-de-montaudran-1024x1024.png" alt="ANITI Days 2026">
+      <img src="/assets/img/at-la-cite-de-montaudran-1024x1024.png" alt="ANITI Days 2026">
     </div>
 
     <div class="conference-info">
@@ -45,7 +46,7 @@ title: Talks and Conferences
 
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/images/imtphoto.jpeg" alt="Conference name">
+      <img src="/assets/img/imtphoto.jpeg" alt="Conference name">
     </div>
 
     <div class="conference-info">
