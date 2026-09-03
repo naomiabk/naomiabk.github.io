@@ -127,18 +127,43 @@ body a {
 }
 
 
-/* Presentation type */
+/* Badges */
 
-.conference-type {
+.conference-type,
+.conference-gallery {
   display: inline-block;
+
   padding: 4px 10px;
   border-radius: 20px;
 
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+
+/* Conference badge */
+
+.conference-type {
   background-color: #f0f0f0;
   color: #666;
-
-  font-size: 0.8rem;
   font-style: italic;
+}
+
+
+/* Picture badge */
+
+.conference-gallery {
+  margin-left: 8px;
+
+  background-color: #e8eef7;
+  color: #3b5b85;
+  font-style: normal;
+}
+
+.conference-gallery:hover {
+  background-color: #d7e2f2;
+  color: #29496f;
 }
 
 
@@ -161,40 +186,9 @@ body a {
     font-size: 1.05rem;
   }
 
-  .conference-gallery {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 4px 10px;
-
-  border-radius: 20px;
-
-  background-color: #e8eef7;
-  color: #3b5b85;
-
-  font-size: 0.8rem;
-  font-style: normal;
-  text-decoration: none;
-}
-
-.conference-gallery {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 4px 10px;
-
-  border-radius: 20px;
-
-  background-color: #e8eef7;
-  color: #3b5b85;
-
-  font-size: 0.8rem;
-  font-style: normal;
-  text-decoration: none;
-}
-
-.conference-gallery:hover {
-  background-color: #d7e2f2;
-  color: #29496f;
-}
+  .conference-meta {
+    font-size: 0.85rem;
+  }
 
 }
 
