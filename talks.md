@@ -23,7 +23,7 @@ title: Talks and Conferences
       <a href="https://samo2025.sciencesconf.org/data/pages/RTUQ.pdf"
          class="conference-gallery"
          target="_blank">
-        📷 RT-UQ group photo
+        RT-UQ group photo
       </a>
     </div>
   </div>
