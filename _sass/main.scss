@@ -131,16 +131,14 @@ body a {
 
 .conference-type {
   display: inline-block;
-
   padding: 4px 10px;
-
   border-radius: 20px;
 
-  background: #e8eef7;
-  color: #3b5b85;
+  background-color: #f0f0f0;
+  color: #666;
 
   font-size: 0.8rem;
-  font-weight: 500;
+  font-style: italic;
 }
 
 
@@ -164,6 +162,21 @@ body a {
   }
 
   .conference-gallery {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 4px 10px;
+
+  border-radius: 20px;
+
+  background-color: #e8eef7;
+  color: #3b5b85;
+
+  font-size: 0.8rem;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.conference-gallery {
   display: inline-block;
   margin-left: 8px;
   padding: 4px 10px;
