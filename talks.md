@@ -10,7 +10,7 @@ title: Talks and Conferences
     <!-- Conférence 5 -->
   <div class="conference-item">
     <div class="conference-image">
-      <img src="/assets/img/Image1.png" alt="Journée LAPLACE à la science">
+      <img src="/assets/img/laplacascience.png" alt="Journée LAPLACE à la science">
     </div>
 
     <div class="conference-info">
