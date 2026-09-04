@@ -140,7 +140,7 @@ title: Talks and Conferences
     <div class="conference-info">
       <h3>International Conference on Dielectrics (ICD)</h3>
       <p class="conference-meta">
-        June 2026 · Leonardo Royal Hotel, Southampton, UK
+        June 2026 · Leonardo Royal Hotel, Southampton, U.K
       </p>
       <span class="conference-type">Oral presentation</span>
     </div>
