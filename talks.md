@@ -7,6 +7,7 @@ title: Talks and Conferences
 
 <div class="conference-list">
 
+  <!-- Conférence 1 -->
   <div class="conference-item">
     <div class="conference-image">
       <img src="/assets/img/SAMO_poster.png" alt="SAMO 2025">
@@ -28,7 +29,31 @@ title: Talks and Conferences
     </div>
   </div>
 
+
+  <!-- Conférence 2 -->
+  <div class="conference-item">
+    <div class="conference-image">
+      <img src="/assets/img/logo_mexico_bleu.png" alt="Ma nouvelle conférence">
+    </div>
+
+    <div class="conference-info">
+      <h3>Rencontres annuelles 2025 du réseau Mexico</h3>
+      <p class="conference-meta">
+        June 2026 · Paris, France
+      </p>
+
+      <span class="conference-type">Conference</span>
+
+      <a href="https://mexico2025.sciencesconf.org/data/gallery/6/src/IMG_0607.jpg"
+         class="conference-gallery"
+         target="_blank">
+        Group photo
+      </a>
+    </div>
+  </div>
+
 </div>
+
 
 
 
